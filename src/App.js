@@ -4,6 +4,7 @@ import React, { Component } from "react";
 import Navbar from "./components/Navbar";
 import News from "./components/News";
 import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import Footer from "./components/Footer";
 
 export default class App extends Component {
   render() {
@@ -34,6 +35,7 @@ export default class App extends Component {
               </div>
             </Route>
           </Switch>
+          <Footer/>
         </Router>
       </>
     );
