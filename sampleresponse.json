@@ -1,0 +1,126 @@
+{
+  "status": "ok",
+  "totalResults": 12,
+  "articles": [
+    {
+      "source": { "id": "espn", "name": "ESPN" },
+      "author": "John KeimESPN Staff Writer ",
+      "title": "Washington Football Team quarterback Ryan Fitzpatrick to have season-ending arthroscopic hip surgery",
+      "description": "WFT QB Ryan Fitzpatrick, who has been on IR with a hip subluxation injury, will undergo season-ending arthroscopic surgery.",
+      "url": "http://espn.go.com/nfl/story/_/id/32812281/washington-football-team-quarterback-ryan-fitzpatrick-season-ending-arthroscopic-hip-surgery",
+      "urlToImage": "https://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2021%2F0819%2Fr897913_1296x729_16%2D9.jpg",
+      "publishedAt": "2021-12-07T14:42:40Z",
+      "content": "ASHBURN, Va. -- Washington Football Team quarterback Ryan Fitzpatrick will undergo arthroscopic surgery on his hip, ending any hope he or the franchise had for his return this season.\r\nFitzpatrick's … [+1131 chars]"
+    },
+    {
+      "source": { "id": "bbc-sport", "name": "BBC Sport" },
+      "author": "BBC Sport",
+      "title": "Caf dismisses Nations Cup move rumours",
+      "description": "The Confederation of African Football refutes rumours that the venue and dates of the Nations Cup could change.",
+      "url": "http://www.bbc.co.uk/sport/africa/59562415",
+      "urlToImage": "https://ichef.bbci.co.uk/live-experience/cps/624/cpsprodpb/10CFB/production/_121995886_afconlogo.jpg",
+      "publishedAt": "2021-12-07T13:07:28.9180907Z",
+      "content": "The Confederation of African Football (Caf) has dismissed rumours that the Africa Cup of Nations (Afcon) could be moved away from Cameroon following the recent discovery of the new Omicron variant of… [+1436 chars]"
+    },
+    {
+      "source": { "id": "four-four-two", "name": "FourFourTwo" },
+      "author": null,
+      "title": "Jude Bellingham fined by German FA over comments about referee Felix Zwayer",
+      "description": "Jude Bellingham has been fined €40,000 (£33,970) by the German Football Association (DFB) for his comments about referee Felix Zwayer after Borussia Dortmund’s Bundesliga defeat to Bayern Munich.",
+      "url": "https://www.fourfourtwo.com/news/jude-bellingham-fined-by-german-fa-over-comments-about-referee-felix-zwayer-1638878829000",
+      "urlToImage": "https://cdn.mos.cms.futurecdn.net/iUJTbEjuMwWYfrrotaqgxJ-1200-80.jpg",
+      "publishedAt": "2021-12-07T12:07:09Z",
+      "content": "Jude Bellingham has been fined €40,000 (£33,970) by the German Football Association (DFB) for his comments about referee Felix Zwayer after Borussia Dortmund’s Bundesliga defeat to Bayern Munich.\r\nTh… [+1303 chars]"
+    },
+    {
+      "source": { "id": "nfl-news", "name": "NFL News" },
+      "author": null,
+      "title": "Week 13 Monday night inactives: New England Patriots at Buffalo Bills",
+      "description": "The official inactives for the New England Patriots at Buffalo Bills \"Monday Night Football\" game.",
+      "url": "https://www.nfl.com/news/week-13-monday-night-inactives-new-england-patriots-at-buffalo-bills",
+      "urlToImage": "https://static.www.nfl.com/image/private/t_editorial_landscape_12_desktop/league/vykagraiyu7uxtes0dsw",
+      "publishedAt": "2021-12-07T05:22:23.3065254Z",
+      "content": "After missing a little over a month's worth of games, Kyler Murray and DeAndre Hopkins returned, in Week 13, spearheading a Cardinals attack that helped Arizona increase its lead atop the NFC."
+    },
+    {
+      "source": { "id": "fox-sports", "name": "Fox Sports" },
+      "author": "FOX Sports",
+      "title": "Heisman Trophy finalists revealed: Aidan Hutchinson, Kenny Pickett, C.J. Stroud, Bryce Young",
+      "description": "Bryce Young, C.J. Stroud, Aidan Hutchinson and Kenny Pickett are the finalists for college football's most prestigious award.",
+      "url": "http://www.foxsports.com/stories/college-football/heisman-trophy-finalists-revealed-aidan-hutchinson-kenny-pickett-c-j-stroud-bryce-young",
+      "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2021/12/1408/814/12.6.21_Heisman-finalists_CFB-16x9.jpg?ve=1&tl=1",
+      "publishedAt": "2021-12-07T02:32:50Z",
+      "content": "On Monday, the four finalists for the 2021 Heisman Trophy were revealed to be Michigan defensive lineman Aidan Hutchinson, Pittsburgh quarterback Kenny Pickett, Ohio State quarterback C.J. Stroud and… [+1809 chars]"
+    },
+    {
+      "source": { "id": "fox-sports", "name": "Fox Sports" },
+      "author": "FOX Sports",
+      "title": "Monday Night Football top plays: Patriots battle Bills in AFC East clash",
+      "description": "The Bills host AFC East rival Patriots in the final matchup of Week 13 on Monday Night Football. Here are the top plays!",
+      "url": "http://www.foxsports.com/stories/nfl/monday-night-football-top-plays-patriots-battle-bills-in-afc-east-clash",
+      "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2021/12/1408/814/12.6.21_NFL-Top-Plays_16x9.jpg?ve=1&tl=1",
+      "publishedAt": "2021-12-07T02:16:46Z",
+      "content": "Rounding out Week 13 NFL\r\n action, two of the league's stingiest defenses face off in a snowstorm as the 8-4 New England Patriots take on the 7-4 Buffalo Billswith first place in the AFC East on the … [+1584 chars]"
+    },
+    {
+      "source": { "id": "fox-sports", "name": "Fox Sports" },
+      "author": "FOX Sports",
+      "title": "College Football Playoff: Time to expand the field, make the process more fair",
+      "description": "College football's final four teams were easy choices this year, but that merely hides an unjust system, Martin Rogers writes.",
+      "url": "http://www.foxsports.com/stories/college-football/college-football-playoff-time-to-expand-the-field-make-the-process-more-fair",
+      "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2021/12/1408/814/779_Newsletter_1920x1080_StoryCard_CFB_PlayoffExpansion.jpg?ve=1&tl=1",
+      "publishedAt": "2021-12-07T00:11:03Z",
+      "content": "By Martin Rogers\r\nFOX Sports Columnist\r\nIn the end, it was an easy decision. It was also, importantly, the right one.\r\nPicking the four teams for the College Football Playoff and a shot at a national… [+4090 chars]"
+    },
+    {
+      "source": { "id": "bleacher-report", "name": "Bleacher Report" },
+      "author": "David Kenyon",
+      "title": "B/R's College Football Weekly Awards: Week 14",
+      "description": "Ever since Nebraska and Illinois kicked off on Aug. 28, the 2021 college football season has built toward this weekend.   Twenty teams competing for 10 championships. Four spots in the College Football Playoff at stake...",
+      "url": "https://bleacherreport.com/articles/2951058-brs-college-football-weekly-awards-week-14",
+      "urlToImage": "https://img.bleacherreport.net/img/slides/photos/004/490/312/hi-res-97482f39941119e66cd3f8c3f199ce56_crop_exact.jpg?w=1200&h=1200&q=75",
+      "publishedAt": "2021-12-06T12:00:07Z",
+      "content": "Eric Gay/Associated Press\r\nExclamation of the Week: UTSA Roadrunners\r\nSpectacular year for UTSA. Heading into 2021, the program had never cracked eight wins. This season, the Roadrunners ripped off a… [+1159 chars]"
+    },
+    {
+      "source": { "id": "bleacher-report", "name": "Bleacher Report" },
+      "author": "Brad Gagnon",
+      "title": "Biggest Takeaways for NFL Playoff Picture in Week 13 as NFC, AFC Races Tighten",
+      "description": "December football just feels...important. You know when you're watching the action on a Sunday afternoon/evening with company from the Christmas tree or menorah (or anything else that ...",
+      "url": "https://bleacherreport.com/articles/2951096-biggest-takeaways-for-nfl-playoff-picture-in-week-13-as-nfc-afc-races-tighten",
+      "urlToImage": "https://img.bleacherreport.net/img/images/photos/003/919/079/hi-res-dc695fb393ab28f1f8277b0e9a3875d7_crop_exact.jpg?w=1200&h=1200&q=75",
+      "publishedAt": "2021-12-06T04:18:21Z",
+      "content": "Justin K. Aller/Getty Images\r\nWhen the Ravens held a 10-3 fourth-quarter lead over the Steelers Sunday, it looked like we'd finally have some significant separation in the AFC North. The Bengals had … [+1392 chars]"
+    },
+    {
+      "source": { "id": "espn", "name": "ESPN" },
+      "author": "Adam RittenbergESPN Senior Writer ",
+      "title": "College football bowl picks - Predicting the score of every game",
+      "description": "The bowl games have just been announced, but let's not have that stop us from predicting the final score of every matchup.",
+      "url": "http://espn.go.com/college-football/insider/story/_/id/32790032/college-football-bowl-picks-predicting-score-every-game",
+      "urlToImage": "https://a1.espncdn.com/combiner/i?img=%2Fphoto%2F2021%2F1121%2Fr940736_1296x729_16%2D9.jpg",
+      "publishedAt": "2021-12-06T02:15:00Z",
+      "content": "You no longer have to feign excitement about the College Football Playoff selections, the New Year's Six bowl pairings or the entire rundown of bowl matchups.\r\nThe most exciting part of the first Sun… [+38347 chars]"
+    },
+    {
+      "source": { "id": "bleacher-report", "name": "Bleacher Report" },
+      "author": "Morgan Moriarty",
+      "title": "Did the College Football Playoff Committee Get It Right?",
+      "description": "The 2021 College Football Playoff field was revealed Sunday afternoon. On New Year's Eve, No. 1 Alabama and No. 4 Cincinnati will play in the Cotton Bowl semifinal, and No. 2 Michigan and No...",
+      "url": "https://bleacherreport.com/articles/2951083-did-the-college-football-playoff-committee-get-it-right",
+      "urlToImage": "https://img.bleacherreport.net/img/images/photos/003/919/069/hi-res-3af8c43353cc6399d4eb04610dc1d748_crop_exact.jpg?w=1200&h=1200&q=75",
+      "publishedAt": "2021-12-05T20:02:45Z",
+      "content": "Jeff Dean/Associated Press\r\nThe 2021 College Football Playoff field was revealed Sunday afternoon. On New Year's Eve, No. 1 Alabama and No. 4 Cincinnati will play in the Cotton Bowl semifinal, and No… [+9209 chars]"
+    },
+    {
+      "source": { "id": "espn-cric-info", "name": "ESPN Cric Info" },
+      "author": null,
+      "title": "Five famous people (and one cat) you didn't know have ESPNcricinfo profiles | ESPNcricinfo.com",
+      "description": "Why do a footballer, a Nobel laureate and a prime minister (no, not Imran Khan) find themselves in the ESPNcricinfo player database? | ESPNcricinfo.com",
+      "url": "http://www.espncricinfo.com/story/_/id/29102695/five-famous-people-one-cat-know-espncricinfo-profiles",
+      "urlToImage": "https://a.espncdn.com/i/cricket/cricinfo/1221668_1296x1296.gif",
+      "publishedAt": "2020-04-27T07:20:43Z",
+      "content": "Why do a cat, a footballer, a Nobel laureate and a prime minister find themselves in the ESPNcricinfo database? Here are six player profiles you wouldn't have expected we had.\r\nPeter the catThe only … [+5504 chars]"
+    }
+  ]
+}
