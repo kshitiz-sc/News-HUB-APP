@@ -1,14 +1,12 @@
-import React, { Component } from "react";
+import React from "react";
 // import PropTypes from 'prop-types'
 import { Link } from "react-router-dom";
 
-export class Navbar extends Component {
-  static propTypes = {};
+const Navbar = ()=>{
 
-  render() {
     return (
       <div>
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark sticky">
           <div className="container-fluid">
             <a className="navbar-brand" href="/">
               News-Hub
@@ -41,7 +39,7 @@ export class Navbar extends Component {
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link" to="/health">
-                    health
+                    Health
                   </Link>
                 </li>
                 <li className="nav-item">
@@ -55,7 +53,7 @@ export class Navbar extends Component {
         </nav>
       </div>
     );
-  }
+  
 }
 
 export default Navbar;

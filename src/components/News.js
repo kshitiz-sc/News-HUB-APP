@@ -1,34 +1,29 @@
-import React, { Component } from "react";
+import React from "react";
 import Newsitem from "./Newsitem";
 import Spinner from "./Spinner";
 import InfiniteScroll from "react-infinite-scroll-component";
+import { useState , useEffect} from "react";
 
-export class News extends Component {
-  constructor() {
-    super();
-    this.state = {
-      articles: [],
-      loading: true,
-      page: 1,
-      totalcards: [],
-    };
-  }
+const News = (props)=>{
 
-  async componentDidMount() {
-    this.props.setprogressbar(10);
-    let url = `https://newsapi.org/v2/top-headlines?country=us&category=${this.props.category}&apiKey=7f50577e05c84ae086b154b4659aadb1&page=1&pageSize=16`;
+  const [articles, setarticles] = useState([]);
+  const [totalcards, settotalcards] = useState([]);
+  const [page, setpage] = useState(1);
+  const [loading, setloading] = useState(true);
+
+
+   useEffect(async () => {
+    props.setprogressbar(10);
+    let url = `https://newsapi.org/v2/top-headlines?country=us&category=${props.category}&apiKey=7f50577e05c84ae086b154b4659aadb1&page=1&pageSize=16`;
     let data = await fetch(url);
-    this.props.setprogressbar(30);
+    props.setprogressbar(30);
     let newdata = await data.json();
-    this.props.setprogressbar(70);
-    this.setState({
-      articles: newdata.articles,
-      totalcards: newdata.totalResults,
-      loading: false,
-    });
-    this.props.setprogressbar(100);
-    document.title = `News-hub | ${this.props.category} news`;
-  }
+    props.setprogressbar(70);
+    setarticles(newdata.articles)
+    settotalcards(newdata.totalResults)
+    setloading(false)
+    props.setprogressbar(100);
+  },[])
   // handlenextclick = async () => {
   //   if (Math.ceil(this.state.totalcards / 16) < this.state.page + 1) {
   //   } else {
@@ -72,33 +67,31 @@ export class News extends Component {
   //   this.props.setprogressbar(100);
   // };
 
-  fetchMoreData = async () => {
-    this.setState({ page: this.state.page + 1 });
-    let url = `https://newsapi.org/v2/top-headlines?country=us&category=${this.props.category}&apiKey=7f50577e05c84ae086b154b4659aadb1&page=${this.state.page}&pageSize=16`;
-    this.setState({ loading: true });
+  const fetchMoreData = async () => {
+    let url = `https://newsapi.org/v2/top-headlines?country=us&category=${props.category}&apiKey=7f50577e05c84ae086b154b4659aadb1&page=${page+1}&pageSize=16`;
+    setpage(page+1);
+    setloading(true);
     let data = await fetch(url);
     let newdata = await data.json();
-    this.setState({
-      articles: this.state.articles.concat(newdata.articles),
-      loading: false,
-    });
+    setarticles(articles.concat(newdata.articles));
+    setloading(false);
   };
 
-  render() {
+  
     return (
       <>
         <div className="container my-3 ">
-          <h1 className="my-5">News-Hub Headlines</h1>
+          <h1 style={{marginTop: '70px',marginBottom: '20px',marginLeft:'20px'}}>News-Hub Headlines</h1>
 
           <InfiniteScroll
-            dataLength={this.state.articles.length}
-            next={this.fetchMoreData}
-            hasMore={this.state.totalcards !== this.state.articles.length}
-            loader={this.state.loading && <Spinner />}
+            dataLength={articles.length}
+            next={fetchMoreData}
+            hasMore={totalcards !== articles.length}
+            loader={loading && <Spinner />}
           >
             <div className="row container">
               {
-                this.state.articles.map((element) => {
+                articles.map((element) => {
                   return (
                     <div className="col md-4" key={element.url}>
                       <Newsitem
@@ -137,7 +130,7 @@ export class News extends Component {
         </div>
       </>
     );
-  }
+  
 }
 
 export default News;
