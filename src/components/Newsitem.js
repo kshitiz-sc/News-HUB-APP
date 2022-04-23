@@ -6,7 +6,7 @@ const Newsitem = (props)=>{
       let {title, description, imageurl, newsurl, author} = props;
     return (
       <div>
-        <div className="card" style={{width: '18rem',}} >
+        <div className="card" style={{width: '18rem'}} >
           <img src={imageurl === null?"https://images.indianexpress.com/2021/12/GettyImages-amla-for-hair-care_759.jpg":imageurl} className="card-img-top" alt="..." />
           <div className="card-body">
             <h5 className="card-title text-dark">{title}</h5>
